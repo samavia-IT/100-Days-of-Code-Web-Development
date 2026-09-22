@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+     Css-display-property
+    </title>
+    <style> 
+    .simple-b{
+      background-color: white;
+      border: 1px solid grey;
+      width: 300px;
+    }
+
+      .form-title{
+        font-family: Arial;
+        font-size: 25px;
+        font-weight: bold ;
+
+      }
+      .form-2,
+      .form-1{
+        display: block;
+        margin-bottom: 10px;
+        width: 200px;
+        height: 25px;
+        border-color: rgba(223, 218, 218, 0.132);
+        border-style: solid;
+        background-color:  rgba(128, 128, 128, 0.329);
+        color: rgb(10, 1, 1);
+
+
+       
+
+      }
+      .form-3{
+        background-color: black;
+        color: white;
+        width: 130px;
+        height: 35px;
+        cursor: pointer;
+        transition: opacity 0.3s;
+
+
+      }
+      .form-3:hover{
+        background-color: rgb(71, 69, 69);
+        opacity: 0.4;
+
+      }
+      .form-3:active{
+       color: blue;
+      }
+      .form-4{
+        background-color:  rgba(209, 202, 202, 0.804);
+        color: rgba(9, 8, 8, 0.896);
+        border-color:rgba(209, 202, 202, 0.804) ;
+        border-style:solid;
+        width: 130px;
+        height: 35px;
+        cursor: pointer;
+        transition: opacity 0.3s;
+        margin-top: 20px;
+
+      }
+      .form-4:hover{
+        background-color: rgba(15, 14, 14, 0.796);
+        opacity: 0.9;
+
+      }
+      .form-4:active{
+       color: blue;
+      }
+      .s-g{
+         color: blue;
+         font-size: 40px;
+         margin-left: 150px;
+         margin-right: 0px;
+         letter-spacing: -5px;
+            }
+            .s-o{
+              color: red;
+         font-size: 30px;
+         margin-left: 0px;
+         margin-right: 0px;
+         letter-spacing: -5px;
+            }
+            .s-i{
+               color: orange;
+         font-size: 30px;
+         margin-left: 0px;
+         margin-right: 0px;
+         letter-spacing: -5px;
+            }
+            .s-s{
+               color:blue;
+         font-size: 30px;
+         margin-left: 0px;
+         margin-right: 0px;
+         letter-spacing: -5px;
+            }
+            .s-l{
+              color : green;
+         font-size: 30px;
+         margin-left: 0px;
+         margin-right: 0px;
+         letter-spacing: -5px;
+            }
+            .s-e{
+              color : red;
+         font-size: 30px;
+         margin-left: 0px;
+         margin-right: 0px;
+            }
+            .div-e{
+              background-color: red;
+              width: 400px;
+              height: 220px;
+              margin-left: 15px;
+              border-color: rgba(3, 3, 3, 0.867);
+              border-style: solid;
+            }
+            .div-l{
+              border-radius: 50%;
+              background-color: green;
+                  width: 300px;
+                  height: 300px;
+                  object-fit: cover;
+                  margin-left: 20px;
+                  margin-top: 20px;
+                  display:flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  align-items: center;
+                  text-align: center;
+              
+
+                }
+ 
+
+    </style>
+  </head>
+  <body>
+    <div class="simple-b">
+<p class ="form-title">Request a ride now</p>
+
+<input class="form-1"  type ="text" placeholder=
+"Enter pickup location">
+<input class="form-2" type ="text" placeholder=
+"Enter destination">
+<button class="form-3" >Request now</button>
+<button class="form-4"> Schedule for later</button>
+</div>
+<p>
+  <span class="s-g">G</span>
+  <span class="s-o">o</span>
+    <span class="s-i">o</span>
+    <span class="s-s">g</span>
+    <span class="s-l">l</span>
+    <span class="s-e">e</span>
+    </p>
+    <div class="div-e">
+      <p class ="form-title">Request a ride now</p>
+
+<input class="form-1"  type ="text" placeholder=
+"Enter pickup location">
+<input class="form-2" type ="text" placeholder=
+"Enter destination">
+<button class="form-3" >Request now</button>
+<button class="form-4"> Schedule for later</button>
+
+    </div>
+    <br>
+    <br>
+    <div class="div-l">
+      <input class="form-1"  type ="text" placeholder=
+"Enter pickup location">
+<input class="form-2" type ="text" placeholder=
+"Enter destination">
+<button class="form-3" >Request now</button>
+<button class="form-4"> Schedule for later</button>
+
+
+    </div>
+  </body>
+</html>
